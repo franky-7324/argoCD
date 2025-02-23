@@ -8,8 +8,8 @@ spec:
   source:
     chart: kube-prometheus-stack  # This is the official Helm chart for Prometheus + Grafana
     repoURL: https://prometheus-community.github.io/helm-charts
-    # targetRevision: 51.2.0  # Change this to the latest chart version
-    targetRevision: main  # Change this to the latest chart version
+    targetRevision: 51.2.0  # Change this to the latest chart version
+    # targetRevision: main  # Change this to the latest chart version
     helm:
       values: |
         grafana:
