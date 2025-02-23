@@ -15,7 +15,7 @@ spec:
         grafana:
           adminPassword: "admin123"
           service:
-            type: LoadBalancer
+            type: ClusterIP
   destination:
     server: https://kubernetes.default.svc
     namespace: monitoring  # This namespace will be created automatically
